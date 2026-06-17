@@ -1,0 +1,38 @@
+<header
+	class="nav flex w-full xl:w-5xl h-auto m-auto p-6 justify-around"
+	[class.active]="menuOpen"
+	[class.hidden]="isHidden"
+>
+	<div class="flex flex-col">
+		<h1>Logo Rayane Studio</h1>
+	</div>
+
+	<button type="button" class="menu-button" (click)="toggleMenu()">
+		<span></span>
+		<span></span>
+		<span></span>
+	</button>
+
+	<ul class="nav-list poppins-light">
+		<li>
+			<a class="text-" href="#" (click)="toggleMenu()">início</a>
+		</li>
+		<li>
+			<a href="#" (click)="toggleMenu()">sobre</a>
+		</li>
+		<li>
+			<a href="#" (click)="toggleMenu()">contato</a>
+		</li>
+		<li>
+			<a href="#" (click)="toggleMenu()">catálogo</a>
+		</li>
+		<li>
+			<a href="#" (click)="toggleMenu()">agendamento</a>
+		</li>
+	</ul>
+
+	<div class="">
+		<span>icone</span>
+	</div>
+</header>
+<div class="border-b border-black opacity-15 w-3/4 m-auto"></div>
