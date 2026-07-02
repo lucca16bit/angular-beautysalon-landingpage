@@ -12,9 +12,15 @@
 }
 
 @theme {
-    --color-browm-pastel: #4c4343;
+	--color-browm-pastel: #4c4343;
 	--color-bege: #f3e7e2;
 	--color-: #f7f2f2;
+}
+
+html,
+body {
+	height: auto;
+	scroll-behavior: smooth;
 }
 
 h1,

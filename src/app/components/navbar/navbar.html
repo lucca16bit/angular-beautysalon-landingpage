@@ -1,10 +1,9 @@
 <header
-	class="nav flex w-full xl:w-5xl h-auto m-auto p-6 justify-around"
+	class="nav flex w-full xl:w-5xl h-auto m-auto p-6 justify-between xl:justify-around bg-white"
 	[class.active]="menuOpen"
-	[class.hidden]="isHidden"
 >
 	<div class="flex flex-col">
-		<h1>Logo Rayane Studio</h1>
+		<h1>Logo</h1>
 	</div>
 
 	<button type="button" class="menu-button" (click)="toggleMenu()">
@@ -14,25 +13,23 @@
 	</button>
 
 	<ul class="nav-list poppins-light">
-		<li>
-			<a class="text-" href="#" (click)="toggleMenu()">início</a>
+		<li class="cursor-pointer hover:text-red-500 transition duration-150 ease-in-out">
+			<a routerLink="/" routerLinkActive="red-500" (click)="toggleMenu()">início</a>
 		</li>
-		<li>
-			<a href="#" (click)="toggleMenu()">sobre</a>
+		<li class="cursor-pointer hover:text-red-500 transition duration-150 ease-in-out">
+			<a routerLink="/about" routerLinkActive="red-500" (click)="toggleMenu()">sobre</a>
 		</li>
-		<li>
-			<a href="#" (click)="toggleMenu()">contato</a>
+		<li class="cursor-pointer hover:text-red-500 transition duration-150 ease-in-out">
+			<a routerLink="/contact" routerLinkActive="red-500" (click)="toggleMenu()">contato</a>
 		</li>
-		<li>
-			<a href="#" (click)="toggleMenu()">catálogo</a>
+		<li class="cursor-pointer hover:text-red-500 transition duration-150 ease-in-out">
+			<a routerLink="/catalog" routerLinkActive="red-500" (click)="toggleMenu()">catálogo</a>
 		</li>
-		<li>
-			<a href="#" (click)="toggleMenu()">agendamento</a>
+		<li class="cursor-pointer hover:text-red-500 transition duration-150 ease-in-out">
+			<a routerLink="/schedule" routerLinkActive="red-500" (click)="toggleMenu()">agendamento</a>
+		</li>
+		<li class="cursor-pointer hover:text-red-500 transition duration-150 ease-in-out">
+			<a routerLink="/gallery" routerLinkActive="red-500" (click)="toggleMenu()">galeria</a>
 		</li>
 	</ul>
-
-	<div class="">
-		<span>icone</span>
-	</div>
 </header>
-<div class="border-b border-black opacity-15 w-3/4 m-auto"></div>
