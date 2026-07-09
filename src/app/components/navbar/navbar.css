@@ -89,7 +89,7 @@
 	}
 
 	.nav-list li:nth-child(6) a {
-		transition: opacity 0.4s 0.6s ease;
+		transition: opacity 0.4s 0.65s ease;
 	}
 
 	.nav.active .nav-list {

@@ -12,7 +12,7 @@
 		<span></span>
 	</button>
 
-	<ul class="nav-list poppins-light">
+	<ul class="nav-list poppins-light text-sm uppercase poppins-semibold">
 		<li class="cursor-pointer hover:text-red-500 transition duration-150 ease-in-out">
 			<a routerLink="/" routerLinkActive="red-500" (click)="toggleMenu()">início</a>
 		</li>
@@ -26,7 +26,9 @@
 			<a routerLink="/catalog" routerLinkActive="red-500" (click)="toggleMenu()">catálogo</a>
 		</li>
 		<li class="cursor-pointer hover:text-red-500 transition duration-150 ease-in-out">
-			<a routerLink="/schedule" routerLinkActive="red-500" (click)="toggleMenu()">agendamento</a>
+			<a routerLink="/schedule" routerLinkActive="red-500" (click)="toggleMenu()"
+				>agendamento</a
+			>
 		</li>
 		<li class="cursor-pointer hover:text-red-500 transition duration-150 ease-in-out">
 			<a routerLink="/gallery" routerLinkActive="red-500" (click)="toggleMenu()">galeria</a>
